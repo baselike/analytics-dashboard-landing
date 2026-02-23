@@ -117,9 +117,11 @@ export default function Index() {
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#EFEFEF]/90 backdrop-blur-sm border-b border-[#181816]/10">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="font-golos font-bold text-xl tracking-tight text-[#181816]">
-            Base<span className="text-[#9050FF]">like</span>
-          </div>
+          <img
+            src="https://cdn.poehali.dev/projects/315870e9-1209-4611-bed0-4604659a1c9e/bucket/2372e756-487c-4b66-aea8-117236f071e4.png"
+            alt="Baselike"
+            className="h-9 w-auto"
+          />
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-[#181816]/70">
             <a href="#problem" className="hover:text-[#181816] transition-colors">Проблема</a>
             <a href="#solution" className="hover:text-[#181816] transition-colors">Решение</a>
@@ -450,9 +452,11 @@ export default function Index() {
       {/* FOOTER */}
       <footer className="py-8 px-6 border-t border-[#181816]/10 bg-[#EFEFEF]">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="font-golos font-bold text-lg text-[#181816]">
-            Base<span className="text-[#9050FF]">like</span>
-          </div>
+          <img
+            src="https://cdn.poehali.dev/projects/315870e9-1209-4611-bed0-4604659a1c9e/bucket/2372e756-487c-4b66-aea8-117236f071e4.png"
+            alt="Baselike"
+            className="h-7 w-auto"
+          />
           <p className="text-[#181816]/40 text-sm">Аналитика продаж на базе CRM</p>
           <p className="text-[#181816]/30 text-xs">© 2024 Baselike. Все права защищены.</p>
         </div>
